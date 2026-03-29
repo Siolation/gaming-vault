@@ -10,7 +10,7 @@ import random
 # --- SETTINGS ---
 API_KEY = "e58aa9b7b165409da17d9ccfae178d9c" 
 DB_FILE = "meine_liste.csv"
-RICHTIGES_PASSWORT = st.secrets["password"]
+PASSWORT = st.secrets["password"]
 PLACEHOLDER_IMAGE = "https://via.placeholder.com/600x400.png?text=Kein+Bild+vorhanden"
 
 st.set_page_config(page_title="Gaming Vault Ultimate", layout="wide")
